@@ -22,7 +22,6 @@ ul,ol{
     list-style: none;
 }
 .hero{  
-position: absolute;  
 width: 1600px;
 height: 400px;
 background: #2F303A;
