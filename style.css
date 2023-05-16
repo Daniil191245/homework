@@ -1,4 +1,4 @@
-.nav_header{
+/* .nav_header{
 width: 145px;
 height: 31px;
 font-family: 'Raleway';
@@ -6,7 +6,6 @@ font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 31px;
-/* identical to box height */
 
 letter-spacing: 0.03em;
 color: #2196F3;
@@ -15,7 +14,7 @@ color: #2196F3;
 .header1{
     display:flex;
     gap: 30px;
-}
+} */
 
 ul,ol{
     list-style: none;
