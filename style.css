@@ -65,3 +65,75 @@ letter-spacing: 0.06em;
 
 color: #FFFFFF;
 }
+
+/*  Our team */
+
+/* Опис секції команда */
+.teame{
+    /* width: 1600px;
+    height: 648px; */
+    width: 1400px;
+    height: 500px;
+    background: #F5F4FA;
+    }
+
+    .team_1{
+        margin: 0 auto;
+        width: 264px;
+    height: 42px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    }
+    /* Стилювання карточек */
+    .teame_card{
+        display: flex;
+        gap: 30px;
+        
+    }
+    .our_team{
+        width: 270px;
+    height: 368px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    }
+    
+    .foto{
+    width: 270px;
+    height: 260px;
+    border-radius: 0px;
+
+    }
+    .team_member{
+    height: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin: 0 auto;
+    color: #212121;
+    margin-top: 20px;
+    }
+    
+    .information{
+    height: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin: 0 auto;
+    color: #757575;
+    margin-top: 5px;
+    }
