@@ -7,7 +7,7 @@ ul>li:nth-child(2n+1){
     font-size: 20px;
     font-style: oblique;
 }
-ul>li:nth-child(even){
+ul>li:nth-child(2n){
     color: darkviolet;
 font-size: 20px;
 font-style: oblique;
