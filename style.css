@@ -1,7 +1,10 @@
 a{
     text-decoration: none;
 }
-
+body{
+    font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
 ul,ol{
     list-style: none;
 }
@@ -56,16 +59,12 @@ color: #FFFFFF;
 
 /* Опис секції команда */
 .teame{
-    /* width: 1600px;
-    height: 648px; */
-    width: 1400px;
     height: 500px;
     background: #F5F4FA;
     }
 
     .team_1{
         margin: 0 auto;
-        width: 264px;
     height: 42px;
     font-family: 'Roboto';
     font-style: normal;
@@ -80,7 +79,6 @@ color: #FFFFFF;
     .teame_card{
         display: flex;
         gap: 30px;
-        
     }
     .our_team{
         width: 270px;
