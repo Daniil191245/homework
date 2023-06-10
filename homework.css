@@ -46,3 +46,20 @@ background-color: chocolate;
     height: 100px;
     background-color: darkblue;
 }
+/* Друге дз підключення шрифтів */
+.font-lorem{ 
+    font-family: 'Caveat', cursive;
+    font-weight: 600;
+    font-size: 24px;
+    word-spacing: 15px;
+    letter-spacing: 2px;
+
+}
+.lorem-text{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 14px;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    color: brown;
+}
