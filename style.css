@@ -8,8 +8,18 @@ font-family: 'Roboto', sans-serif;
 ul,ol{
     list-style: none;
 }
+:root{
+    --logo-color: #000000;
+--name-text:#212121;
+--section-background-color:#2F303A;
+--background-color: #F5F4FA;
+--section-name:#FFFFFF; 
+--color: #2196F3;
+--text-color: #757575;
+}
+
 .hero{  
-background: #2F303A;
+background: var(--section-background-color);
 text-align: center;
 }
 .hero_heading{
@@ -20,39 +30,33 @@ font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 60px;
-
 margin: 0 auto;
-
-/* text-align: center; */
 letter-spacing: 0.06em;
 text-transform: uppercase;
-    color: white;
+    color: var(--section-name);
 }
 
 .hero_button{
 width: 216px;
 height: 50px;
-background-color: #2196F3;
+background-color: var(--color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 outline-style: none;
 border: none;
-color: #FFFFFF;
+color: var(--section-name);
 }
 
 .hero_button--text{
     width: 152px;
 height: 30px;
-margin: 0 auto;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 30px;
-
 letter-spacing: 0.06em;
-
-color: #FFFFFF;
+color: var(--section-name);
 }
 
 /*  Our team */
@@ -60,20 +64,18 @@ color: #FFFFFF;
 /* Опис секції команда */
 .teame{
     height: 500px;
-    background: #F5F4FA;
-    }
-
+    background: var(--background-color);
+    } 
     .team_1{
-        margin: 0 auto;
     height: 42px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
-    text-align: center;
+    text-align: center; 
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--name-text);
     }
     /* Стилювання карточек */
     .teame_card{
@@ -83,9 +85,9 @@ color: #FFFFFF;
     .our_team{
         width: 270px;
     height: 368px;
-    background: #FFFFFF;
+    background: var(--section-name);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+    border-radius: 0 px 0px 4px 4px;
     }
     
     .foto{
@@ -103,8 +105,7 @@ color: #FFFFFF;
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
-    margin: 0 auto;
-    color: #212121;
+    color: var(--name-text);
     margin-top: 20px;
     }
     
@@ -117,17 +118,17 @@ color: #FFFFFF;
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
-    margin: 0 auto;
-    color: #757575;
-    margin-top: 5px;
+    color: var(--text-color);
+    padding-top: 5px;
+    
     }
 
 
     /* Footer-підвал сайту  */
     .footer1{
         height: 252px;
-        background: #2F303A;
-        padding-top: 60px;
+        background: var(--section-background-color);
+        margin-top: 60px;
         }
         
         .name_footer{
@@ -139,7 +140,7 @@ color: #FFFFFF;
         font-size: 26px;
         line-height: 31px;
         letter-spacing: 0.03em;
-        color: #2196F3;
+        color: var(--color);
         padding-left: 215px;
         }
         
@@ -152,7 +153,7 @@ color: #FFFFFF;
         font-size: 26px;
         line-height: 31px;
         letter-spacing: 0.03em;
-        color: #FFFFFF;
+        color: var(--section-name);
         }
         
         
@@ -165,12 +166,10 @@ color: #FFFFFF;
         font-size: 14px;
         line-height: 24px;
         letter-spacing: 0.03em;
-        color: #FFFFFF;
+        color: var(--section-name);
         padding-left: 215px;
         padding-top: 12px;
-        
         }
-        
         .dictates{
         height: 21px;
         font-family: 'Roboto';
@@ -181,5 +180,5 @@ color: #FFFFFF;
         letter-spacing: 0.03em;
         padding-left: 175px;
         color: rgba(255, 255, 255, 0.6);
-        
+
         }
