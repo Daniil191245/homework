@@ -9,13 +9,16 @@ ul,ol{
     list-style: none;
 }
 :root{
+    
+    --name-text:#212121;
+    --text-color: #757575;
+    --section-name:#FFFFFF; 
+    --color-button-logo: #2196F3;
     --logo-color: #000000;
---name-text:#212121;
---section-background-color:#2F303A;
---background-color: #F5F4FA;
---section-name:#FFFFFF; 
---color: #2196F3;
---text-color: #757575;
+    --section-background-color:#2F303A;
+    --footer-text-section: #FFFFFF;
+    --background-color-header: #ECECEC;
+    --background-color: #F5F4FA;
 }
 
 .hero{  
@@ -39,7 +42,7 @@ text-transform: uppercase;
 .hero_button{
 width: 216px;
 height: 50px;
-background-color: var(--color);
+background-color: var(--color-button-logo);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 outline-style: none;
@@ -140,7 +143,7 @@ color: var(--section-name);
         font-size: 26px;
         line-height: 31px;
         letter-spacing: 0.03em;
-        color: var(--color);
+        color: var(--logo-color);
         padding-left: 215px;
         }
         
@@ -153,10 +156,8 @@ color: var(--section-name);
         font-size: 26px;
         line-height: 31px;
         letter-spacing: 0.03em;
-        color: var(--section-name);
+        color: var(--color-button-logo);
         }
-        
-        
         address>p{
         width: 231px;
         height: 21px;
