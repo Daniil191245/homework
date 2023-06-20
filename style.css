@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 a{
     text-decoration: none;
 }
@@ -24,6 +28,7 @@ ul,ol{
 .hero{  
 background: var(--section-background-color);
 text-align: center;
+padding: 212px 0px ;
 }
 .hero_heading{
     width: 696px;
@@ -36,6 +41,7 @@ line-height: 60px;
 margin: 0 auto;
 letter-spacing: 0.06em;
 text-transform: uppercase;
+margin-bottom: 35px;
     color: var(--section-name);
 }
 
@@ -131,9 +137,8 @@ color: var(--section-name);
     .footer1{
         height: 252px;
         background: var(--section-background-color);
-        margin-top: 60px;
+        padding: 60px 215px;
         }
-        
         .name_footer{
         width: 145px;
         height: 31px;
@@ -143,8 +148,7 @@ color: var(--section-name);
         font-size: 26px;
         line-height: 31px;
         letter-spacing: 0.03em;
-        color: var(--logo-color);
-        padding-left: 215px;
+        color: var(--color-button-logo);
         }
         
         .logo_footer{
@@ -156,7 +160,7 @@ color: var(--section-name);
         font-size: 26px;
         line-height: 31px;
         letter-spacing: 0.03em;
-        color: var(--color-button-logo);
+        color: var(--footer-text-section);
         }
         address>p{
         width: 231px;
@@ -167,9 +171,11 @@ color: var(--section-name);
         font-size: 14px;
         line-height: 24px;
         letter-spacing: 0.03em;
+        padding-bottom: 20px;
         color: var(--section-name);
-        padding-left: 215px;
-        padding-top: 12px;
+        }
+        .footer-information>li{
+            padding-bottom: 20px;
         }
         .dictates{
         height: 21px;
@@ -179,7 +185,5 @@ color: var(--section-name);
         font-size: 14px;
         line-height: 24px;
         letter-spacing: 0.03em;
-        padding-left: 175px;
         color: rgba(255, 255, 255, 0.6);
-
         }
