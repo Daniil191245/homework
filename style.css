@@ -137,7 +137,12 @@ color: var(--section-name);
     .footer1{
         height: 252px;
         background: var(--section-background-color);
-        padding: 60px 215px;
+        padding-top: 60px;
+        }
+        .container-footer{
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0;
         }
         .name_footer{
         width: 145px;
