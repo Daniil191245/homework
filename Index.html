@@ -9,24 +9,34 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Web Studio</title>
+    <title>WebStudio</title>
   </head>
   <body>
     <header>
-      <nav>
-        <a href="" title="WebStudio"><span>Web</span>Studio</a>
-        <ul class="header1">
-          <!--список наших навігацій  -->
-          <li><a href="">студія</a></li>
-          <li><a href="">портфоліо</a></li>
-          <li><a href="">контакти</a></li>
-          <!-- Список контактів -->
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:380961111111">+38 096 111 11 11</a></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav class="navigation-information">
+          <a class="logotype" href="" title="WebStudio"
+            >Web<span>Studio</span></a
+          >
+          <ul class="navigation">
+            <!--список наших навігацій та контактів -->
+            <li><a class="navigation-list" href="">студія</a></li>
+            <li><a class="navigation-list" href="">портфоліо</a></li>
+            <li><a class="navigation-list" href="">контакти</a></li>
+            <li>
+              <a class="navigation-contacts" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="navigation-contacts" href="tel:380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
-
     <main>
       <!-- hero -->
       <section class="hero">
@@ -70,7 +80,6 @@
           </ul>
         </div>
       </section>
-
       <!-- about -->
       <section>
         <div class="container">
