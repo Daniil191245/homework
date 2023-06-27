@@ -1,27 +1,20 @@
-<!-- Тип документу -->
 <!DOCTYPE html>
-<!-- Основний тег сторінки -->
 <html lang="en">
   <head>
-    <!-- Система кодування символів -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- Відображення сторінки на мобільних пристроях -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Семантика</title>
+    <title>Web Studio</title>
   </head>
-  <!-- У основному тезі баді ми записуємо весь наш контент-->
   <body>
     <header>
       <nav>
-        <a style="color: rgb(0, 0, 0)" href="" title="WebStudio"
-          ><span style="color: blue">Web</span>Studio</a
-        >
+        <a href="" title="WebStudio"><span>Web</span>Studio</a>
         <ul class="header1">
           <!--список наших навігацій  -->
           <li><a href="">студія</a></li>
@@ -42,86 +35,92 @@
           <span class="hero_button--text">Замовити послугу</span>
         </button>
       </section>
-
-      <!-- Особливості -->
+      <!--section-features -->
       <section>
-        <h2>Особливості</h2>
-        <ul>
-          <!-- Увага до деталей -->
-          <li>
-            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p>
-              Ідейні міркування, і навіть початок повсякденної роботи з
-              формування позиції.
-            </p>
-          </li>
-          <!-- Пунктуальність -->
-          <li>
-            <h3>ПУНКТУАЛЬНІСТЬ</h3>
-            <p>
-              Завдання організації, особливо рамки і місце навчання кадрів тягне
-              у себе.
-            </p>
-          </li>
-          <!-- Планування -->
-          <li>
-            <h3>ПЛАНУВАННЯ</h3>
-            <p>
-              Так само консультація з широким активом значною мірою зумовлює.
-            </p>
-          </li>
-          <!-- Сучасні технологій -->
-          <li>
-            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p>
-              Значимість цих проблем настільки очевидна, що реалізація планових
-              завдань.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="visually-hidden">Особливості</h2>
+          <ul class="information-features">
+            <li class="information-text">
+              <h3 class="name-information">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p>
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
+              </p>
+            </li>
+            <li class="information-text">
+              <h3 class="name-information">ПУНКТУАЛЬНІСТЬ</h3>
+              <p>
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе.
+              </p>
+            </li>
+            <li class="information-text">
+              <h3 class="name-information">ПЛАНУВАННЯ</h3>
+              <p>
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+            <li class="information-text">
+              <h3 class="name-information">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p>
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- about -->
       <section>
-        <h2>Чим ми займаємося</h2>
-        <ul>
-          <li><img src="./box1.jpg" alt="" width="250" height="250" /></li>
-          <li><img src="./box2.jpg" alt="" width="250" height="250" /></li>
-          <li><img src="./box3.jpg" alt="" width="250" height="250" /></li>
-        </ul>
+        <div class="container">
+          <h2 class="name-box">Чим ми займаємося</h2>
+          <ul class="box-card">
+            <li>
+              <img class="box-photo" src="./img-WebStudio/box1.jpg" alt="" />
+            </li>
+            <li>
+              <img class="box-photo" src="./img-WebStudio/box2.jpg" alt="" />
+            </li>
+            <li>
+              <img class="box-photo" src="./img-WebStudio/box3.jpg" alt="" />
+            </li>
+          </ul>
+        </div>
       </section>
-
-      <!-- Наша команда -->
+      <!-- Our team -->
       <section class="teame">
-        <h2 class="team_1">Наша команда</h2>
-        <ul class="teame_card">
-          <!-- team -->
-          <li class="our_team">
-            <img class="foto" src="./img.jpg" alt="" />
-            <h3 class="team_member">Ігор Дем'яненко</h3>
-            <p class="information">Product Designer</p>
-          </li>
-          <li class="our_team">
-            <img class="foto" src="./img1.jpg" alt="" />
-            <h3 class="team_member">Ольга Рєпіна</h3>
-            <p class="information">Frontend Developer</p>
-          </li>
-          <li class="our_team">
-            <img class="foto" src="./img2.jpg" alt="" />
-            <h3 class="team_member">Микола Тарасов</h3>
-            <p class="information">Marketing</p>
-          </li>
-          <li class="our_team">
-            <img class="foto" src="./img3.jpg" alt="" />
-            <h3 class="team_member">Михайло Єрмаков</h3>
-            <p class="information">UI Designer</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="team_1">Наша команда</h2>
+          <ul class="teame_card">
+            <!-- team -->
+            <li class="our_team">
+              <img class="foto" src="./img-WebStudio/card1.jpg" alt="" />
+              <h3 class="team_member">Ігор Дем'яненко</h3>
+              <p class="information">Product Designer</p>
+            </li>
+            <li class="our_team">
+              <img class="foto" src="./img-WebStudio/card2.jpg" alt="" />
+              <h3 class="team_member">Ольга Рєпіна</h3>
+              <p class="information">Frontend Developer</p>
+            </li>
+            <li class="our_team">
+              <img class="foto" src="./img-WebStudio/card3.jpg" alt="" />
+              <h3 class="team_member">Микола Тарасов</h3>
+              <p class="information">Marketing</p>
+            </li>
+            <li class="our_team">
+              <img class="foto" src="./img-WebStudio/card4.jpg" alt="" />
+              <h3 class="team_member">Михайло Єрмаков</h3>
+              <p class="information">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!-- Підвал сайту -->
     <footer class="footer1">
-      <div class="container-footer">
+      <div class="container">
         <a class="name_footer" href="" title="WebStudio"
           >Web<span class="logo_footer">Studio</span>
         </a>
