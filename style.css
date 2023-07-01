@@ -27,7 +27,7 @@ ul,ol{
 .container{
     max-width: 1200px;
         margin: 0 auto;
-        padding: 0;
+        padding: 0 15px;
 }
 /* styles header */
 header{
@@ -102,6 +102,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 outline-style: none;
 border: none;
+cursor: pointer;
 color: var(--section-name);
 }
 .hero_button--text{
@@ -131,6 +132,7 @@ color: var(--section-name);
 }
 .information-features{
     display: flex;
+    justify-content: center;
     padding: 94px 0px 94px 0px;
 }
 .information-text:not(:last-child){
@@ -196,6 +198,7 @@ height: 300px;
     }
     .teame_card{
         display: flex;
+        justify-content: center;
         padding: 0px 0px 94px 0px;
     }
     .our_team{
@@ -204,7 +207,10 @@ height: 300px;
     background: var(--section-name);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0 px 0px 4px 4px;
-    margin-right: 30px;
+    /* margin-right: 30px; */
+    }
+    .our_team:not(:last-child){
+        margin-right: 30px;
     }
     .foto{
     width: 270px;
@@ -237,9 +243,10 @@ height: 300px;
     }
     /* Footer-підвал сайту  */
     .footer1{
-        height: 252px;
+        height: auto;
         background: var(--section-background-color);
         padding-top: 60px;
+        padding: 60px 0px;
         }
         .name_footer{
         width: 145px;
