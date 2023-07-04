@@ -245,7 +245,6 @@ height: 300px;
     .footer1{
         height: auto;
         background: var(--section-background-color);
-        padding-top: 60px;
         padding: 60px 0px;
         }
         .name_footer{
