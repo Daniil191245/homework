@@ -128,6 +128,7 @@ letter-spacing: 0.48px;
 .portfolio{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    /* можна записати скорочено як gap: 30px; */
     column-gap: 30px;
     row-gap: 30px;
 }
