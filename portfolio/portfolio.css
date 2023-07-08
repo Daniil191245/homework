@@ -133,8 +133,6 @@ letter-spacing: 0.48px;
     row-gap: 30px;
 }
 .card{
-    width: 370px;
-    height: 404px;
     border: 1px solid var(--color-cars);
 background: var(--section-name);
 }
