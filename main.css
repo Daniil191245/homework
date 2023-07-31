@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+:root{
+    --name-text:#212121;
+    --text-color: #757575;
+    --section-name:#FFFFFF; 
+    --color-button-logo: #2196F3;
+    --logo-color: #000000;
+    --section-background-color:#2F303A;
+    --footer-text-section: #FFFFFF;
+    --background-color-header: #ECECEC;
+    --background-color: #F5F4FA;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+list-style: none;
+}
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.container{
+    max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+}
+header{
+    padding: 21px 0px 28px 0px;
+}
+.navigation-information{
+    display: flex;
+    align-items: center;
+}
+/* logotype */
+.logotype{
+    font-family: Raleway; 
+font-size: 26px;
+font-weight: 700;
+letter-spacing: 0.78px;
+color: var(--color-button-logo);
+}
+.logotype span{
+    color: var(--logo-color);
+}
+.navigation{
+    display: flex;
+    margin-left: 162px;
+}
+/* navigation and contacs */
+.navigation-list{
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+letter-spacing: 0.28px;
+margin-right: 50px;
+color: var(--name-text);
+}
+.navigation-list:hover{
+    color: var(--color-button-logo);
+}
+.navigation-contacts{
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+letter-spacing: 0.28px;
+margin-left: 134px;
+color: var(--text-color);
+}
+.navigation-contacts:hover{
+    color: var(--color-button-logo);
+}
+.hero-head{
+    width: 696px;
+font-family: Roboto;
+font-size: 44px;
+font-style: normal;
+font-weight: 900;
+line-height: 60px; 
+letter-spacing: 2.64px;
+text-transform: uppercase;
+text-align: center;
+color: var(--footer-text-section);
+}
+.hero-button{
+    width: 216px;
+height: 50px;
+cursor: pointer;
+    border-radius: 4px;
+background: var(--color-button-logo);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+}
+.hero-button span{
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.96px;
+text-align: center;
+color: var(--footer-text-section);
+}
