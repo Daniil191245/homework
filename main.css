@@ -104,7 +104,10 @@ header {
     padding: 200px 0px;
     background-image: url(./main-img/background.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+    
+    /* background: url(./main-img/background.jpg) center / cover no-repeat; */
 }
 
 .content {
