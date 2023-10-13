@@ -246,3 +246,112 @@ header {
     width: 370px;
     height: 300px;
 }
+/* section clients logotype */
+.section-logotype-clients{
+    padding-bottom: 94px;
+}
+.clients{
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+margin-bottom: 50px;
+color: var(--name-text);
+}
+.list-clients-logotype{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-logotype:not(:last-child){
+    margin-right: 30px;
+}
+.item-logotype{
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    padding: 16px 32px;
+}
+.item-logotype-clients{
+    width: 106px;
+    height: 60px;
+    fill: #AFB1B8;
+}
+.item-logotype:hover{
+    border-color: var(--color-button-logo);
+    cursor: pointer;
+}
+.item-logotype:hover .item-logotype-clients{
+    border-color: var(--color-button-logo);
+    fill: var(--color-button-logo);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer1{
+    height: auto;
+    background: var(--section-background-color);
+    padding: 60px 0px;
+    }
+    .name_footer{
+    width: 145px;
+    height: 31px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--color-button-logo);
+    }
+    
+    .logo_footer{
+        width: 145px;
+    height: 31px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--footer-text-section);
+    }
+    address>p{
+    width: 231px;
+    height: 21px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    margin: 20px 0px 20px 0px;
+    color: var(--section-name);
+    }
+    .footer-information>li{
+        margin-bottom: 20px;
+    }
+    .dictates{
+    height: 21px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    }
