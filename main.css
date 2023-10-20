@@ -246,6 +246,49 @@ header {
     width: 370px;
     height: 300px;
 }
+
+
+
+
+
+/* Ще дороблю */
+.item-card:hover{
+    position: relative;
+}
+.item-card:hover .text-box{
+    position: absolute;
+    bottom: 23px;
+
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.80);
+}
+.item-card:hover .text-img{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    padding-top: 25px;
+    opacity: 1;
+}
+/* .text-img{
+   
+} */
+.text-img{
+    opacity: 0;
+}
+
+
+
+
+
+
+
 /* section clients logotype */
 .section-logotype-clients{
     padding-bottom: 94px;
