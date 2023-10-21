@@ -241,29 +241,22 @@ header {
 .box-card>li:not(:last-child) {
     margin-right: 30px;
 }
-
 .box-photo {
     width: 370px;
     height: 300px;
 }
-
-
-
-
-
-/* Ще дороблю */
-.item-card:hover{
+.item-card{
     position: relative;
 }
-.item-card:hover .text-box{
+.text-box{
     position: absolute;
-    bottom: 23px;
+    bottom: 4px;
 
     width: 370px;
     height: 70px;
     background: rgba(47, 48, 58, 0.80);
 }
-.item-card:hover .text-img{
+.text-img{
     color: #FFF;
     text-align: center;
     font-family: Roboto;
@@ -275,12 +268,6 @@ header {
     text-transform: uppercase;
     padding-top: 25px;
     opacity: 1;
-}
-/* .text-img{
-   
-} */
-.text-img{
-    opacity: 0;
 }
 
 
