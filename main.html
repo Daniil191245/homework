@@ -40,7 +40,62 @@
       <section class="section-hero">
         <div class="container content">
           <h1 class="hero-head">Ефективні рішення для вашого бізнесу</h1>
-          <button class="hero-button"><span>Замовити послугу</span></button>
+          <button class="hero-button button-open" data-modal-open>
+            <span>Замовити послугу</span>
+          </button>
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <button class="button" data-modal-close>
+                <svg class="button-close">
+                  <use href="./symbol-defs.svg#icon-close"></use>
+                </svg>
+              </button>
+              <h2 class="title-modal">
+                Залиште свої дані, ми вам передзвонимо
+              </h2>
+              <form>
+                <label class="label">Ім'я</label>
+                <svg class="person">
+                  <use href="./symbol-defs.svg#icon-person"></use>
+                </svg>
+                <input class="input" type="text" />
+
+                <label class="label">Телефон</label>
+                <svg class="person">
+                  <use href="./symbol-defs.svg#icon-phone"></use>
+                </svg>
+                <input class="input" type="tel"" />
+
+                <label class="label">Пошта</label>
+                <svg class="person">
+                  <use href="./symbol-defs.svg#icon-email"></use>
+                </svg>
+                <input class="input" type="email" />
+                <svg class="person">
+                  <use href=""></use>
+                </svg>
+
+                <label class="label"> Коментар</label>
+                <textarea
+                  class="textrea"
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Введіть текст"
+                ></textarea>
+
+                <div class="div-political">
+                  <input type="checkbox" />
+                  <p class="text-modal">
+                    Погоджуюся з розсилкою та приймаю
+                    <a class="politica-modal" href="">Умови договору</a>
+                  </p>
+                </div>
+                <button class="button-push"><span>Відправити</span></button>
+              </form>
+            </div>
+          </div>
         </div>
       </section>
       <section class="information-section">
@@ -172,5 +227,6 @@
         </ul>
       </div>
     </footer>
+    <script src="./js/main.js"></script>
   </body>
 </html>
