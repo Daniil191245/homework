@@ -71,6 +71,7 @@ header {
 .navigation {
     display: flex;
     margin-left: 162px;
+    /* position: relative; */
 }
 
 /* navigation and contacs */
@@ -79,12 +80,53 @@ header {
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.28px;
-    margin-right: 50px;
+    position: relative;
     color: var(--name-text);
 }
-
+.nav-list-item:not(:last-child){
+    margin-right: 50px;
+}
 .navigation-list:hover {
     color: var(--color-button-logo);
+}
+/* .nav-list-item{
+    position: absolute;
+    overflow: hidden;
+} */
+.navigation-list::after{
+    content: "";
+    display: block;
+    margin-top: 30px;
+    position: absolute;
+    /* bottom: 0;
+    left: 0; */
+
+    /* варіант 1 */
+    transform: scale(0);
+
+    transition-property: transform, background-color;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.5s;
+
+    /* варіант 2 */
+    /* transform: translate(-100%);
+    
+    transition-property: transform;
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+    transition-delay: 0.5s; */
+
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--color-button-logo);
+}
+.navigation-list:hover::after{
+transform: scale(1);
+
+/* варіан 2 */
+/* transform: translate(0); */
 }
 
 .navigation-contacts {
@@ -217,6 +259,9 @@ border: 1px solid rgba(33, 33, 33, 0.20);
 }
 .input:hover{
     border-color: #2196F3;
+}
+.div-contact{
+    position: relative;
 }
 .div-contact:hover .person{
     fill: #2196F3;
