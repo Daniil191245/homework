@@ -136,6 +136,10 @@ letter-spacing: 0.48px;
     border: 1px solid var(--color-cars);
 background: var(--section-name);
 }
+.item-portfolio:hover{
+    color: #2196F3;
+    background-color: #2196F3;
+}
 .card-name{
     font-family: Roboto;
 font-size: 18px;
