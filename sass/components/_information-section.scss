@@ -1,0 +1,119 @@
+.information-section {
+    padding: 94px 0px;
+}
+
+.list-text {
+    display: flex;
+}
+
+.list-information::before {
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background: #F5F4FA;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.antenna::before {
+    content: "";
+    background-image: url(/main-img/antenna.svg);
+}
+
+.clock::before {
+    background-image: url(/main-img/clock.svg);
+}
+
+.diagram::before {
+    background-image: url(/main-img/diagram.svg);
+}
+
+.astronaut::before {
+    background-image: url(/main-img/astronaut.svg);
+}
+
+.list-information:not(:last-child) {
+    margin-right: 30px;
+}
+
+.head-information {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: var(--name-text);
+}
+
+.text-information {
+    width: 270px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: 0.42px;
+    color: var(--text-color);
+}
+
+.list-box {
+    padding-top: 100px;
+}
+
+.name-box {
+    color: var(--name-text);
+    text-align: center;
+    font-size: 36px;
+    font-family: Roboto;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+    padding: 0px 0px 50px 0px;
+}
+
+.box-card {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 94px;
+}
+
+.box-card>li:not(:last-child) {
+    margin-right: 30px;
+}
+.box-photo {
+    width: 370px;
+    height: 300px;
+}
+.item-card{
+    position: relative;
+}
+.text-box{
+    position: absolute;
+    bottom: 4px;
+
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.80);
+}
+.text-img{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    padding-top: 25px;
+    opacity: 1;
+}
+
+

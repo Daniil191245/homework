@@ -1,0 +1,92 @@
+.teame{
+    background: var(--background-color);
+    /* background: linear-gradient(21deg, rgba(245,244,250,1) 20%, rgba(0,0,0,1) 90%); */
+    } 
+    .team_1{
+    height: 42px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center; 
+    letter-spacing: 0.03em;
+    padding: 94px 0px 80px 0px;
+    color: var(--name-text);
+    }
+    .teame_card{
+        display: flex;
+        justify-content: center;
+        padding: 0px 0px 94px 0px;
+    }
+    .our_team{
+        width: 270px;
+        height: 428px;
+    background: var(--section-name);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0 px 0px 4px 4px;
+    }
+    .our_team:not(:last-child){
+        margin-right: 30px;
+    }
+    .foto{
+    width: 270px;
+    height: 260px;
+    border-radius: 0px;
+    margin-bottom: 30px;
+    }
+    .team_member{
+    height: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--name-text);
+    margin-bottom: 10px;
+    }
+    .information{
+    height: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 29px;
+    color: var(--text-color);
+    }
+.list-network{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-network:not(:last-child){
+   margin-right: 34px;
+}
+.network-svg{
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+    cursor: pointer;
+    &:hover{
+        fill: #2196F3;
+    }
+}
+
+// .team_card {
+//         display: flex;
+//         flex-direction: column;
+
+//         @media screen and (min-width: 768px) {
+//         display: flex;
+//     }
+
+//     @media screen and (min-width: 1200px) {
+//         display: flex;
+//     }
+
+// }

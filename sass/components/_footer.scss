@@ -1,0 +1,53 @@
+.footer{
+    height: auto;
+    background: var(--section-background-color);
+    padding: 60px 0px;
+    }
+    .name_footer{
+    width: 145px;
+    height: 31px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--color-button-logo);
+    }
+    
+    .logo_footer{
+        width: 145px;
+    height: 31px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--footer-text-section);
+    }
+    address>p{
+    width: 231px;
+    height: 21px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    margin: 20px 0px 20px 0px;
+    color: var(--section-name);
+    }
+    .footer-information>li{
+        margin-bottom: 20px;
+    }
+    .dictates{
+    height: 21px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    }
