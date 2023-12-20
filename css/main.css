@@ -42,9 +42,23 @@ ol {
 }
 
 .container {
-  max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+}
+@media screen and (min-width: 470px) {
+  .container {
+    max-width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 778px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
 }
 
 header {
@@ -381,19 +395,59 @@ header {
   padding: 94px 0px;
 }
 
-.list-text {
-  display: flex;
+@media screen and (min-width: 470px) {
+  .list-text {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 768px) {
+  .list-text {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .list-text {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 470px) {
+  .list-information:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .list-information:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .list-information::before {
   content: "";
   display: block;
-  width: 270px;
   height: 120px;
   border-radius: 4px;
   background: #F5F4FA;
   background-position: center;
   background-repeat: no-repeat;
+}
+@media screen and (min-width: 470px) {
+  .list-information::before {
+    width: 450px;
+    height: 120px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .list-information::before {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .list-information::before {
+    width: 270px;
+  }
 }
 
 .antenna::before {
@@ -413,10 +467,6 @@ header {
   background-image: url(/main-img/astronaut.svg);
 }
 
-.list-information:not(:last-child) {
-  margin-right: 30px;
-}
-
 .head-information {
   font-family: Roboto;
   font-size: 14px;
@@ -429,21 +479,66 @@ header {
   margin-bottom: 10px;
   color: var(--name-text);
 }
+@media screen and (min-width: 470px) {
+  .head-information {
+    width: 270px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .head-information {
+    margin-left: -60px;
+  }
+}
 
 .text-information {
-  width: 270px;
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  /* 171.429% */
   letter-spacing: 0.42px;
   color: var(--text-color);
+}
+@media screen and (min-width: 470px) {
+  .text-information {
+    width: 450px;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .text-information {
+    width: 354px;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .text-information {
+    width: 270px;
+    height: 72px;
+  }
 }
 
 .list-box {
   padding-top: 100px;
+}
+@media screen and (min-width: 470px) {
+  .list-box {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .list-box {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .list-box {
+    display: block;
+  }
 }
 
 .name-box {
@@ -569,9 +664,25 @@ header {
 }
 
 .teame_card {
-  display: flex;
   justify-content: center;
   padding: 0px 0px 94px 0px;
+}
+@media screen and (min-width: 470px) {
+  .teame_card {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 678px) {
+  .teame_card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .teame_card {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .our_team {

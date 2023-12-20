@@ -15,7 +15,18 @@
     color: var(--name-text);
     }
     .teame_card{
-        display: flex;
+        @media screen and (min-width:470px){
+            flex-direction: column;
+        }
+        @media screen and (min-width:678px){
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @media screen and (min-width:1200px){
+            display: flex;
+            flex-direction: row;
+        }
+
         justify-content: center;
         padding: 0px 0px 94px 0px;
     }
