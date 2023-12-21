@@ -52,7 +52,7 @@ ol {
 }
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 778px;
+    max-width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -593,6 +593,7 @@ header {
 }
 
 .section-logotype-clients {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -604,18 +605,43 @@ header {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.08px;
-  margin-bottom: 50px;
   color: var(--name-text);
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .clients {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients {
+    margin-bottom: 50px;
+  }
 }
 
 .list-clients-logotype {
-  display: flex;
   justify-content: center;
   align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+@media screen and (min-width: 768px) {
+  .list-clients-logotype {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .list-clients-logotype {
+    display: flex;
+    gap: 0;
+  }
 }
 
-.item-logotype:not(:last-child) {
-  margin-right: 30px;
+@media screen and (min-width: 1200px) {
+  .item-logotype:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .icon {
@@ -625,9 +651,23 @@ header {
 }
 
 .item-logotype {
-  padding: 16px 32px;
   border-radius: 4px;
   border: 1px solid #AFB1B8;
+}
+@media screen and (min-width: 470px) {
+  .item-logotype {
+    padding: 16px 52px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .item-logotype {
+    padding: 16px 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .item-logotype {
+    padding: 16px 32px;
+  }
 }
 
 .icon:hover {
@@ -651,7 +691,6 @@ header {
 }
 
 .team_1 {
-  height: 42px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -672,7 +711,7 @@ header {
     flex-direction: column;
   }
 }
-@media screen and (min-width: 678px) {
+@media screen and (min-width: 768px) {
   .teame_card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -686,22 +725,67 @@ header {
 }
 
 .our_team {
-  width: 270px;
-  height: 428px;
   background: var(--section-name);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0 px 0px 4px 4px;
+  border-radius: 0px 0px 4px 4px;
+}
+@media screen and (min-width: 470px) {
+  .our_team {
+    width: 450px;
+    height: 622px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .our_team {
+    width: 354px;
+    height: 536px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .our_team {
+    width: 270px;
+    height: 428px;
+  }
 }
 
-.our_team:not(:last-child) {
-  margin-right: 30px;
+@media screen and (min-width: 470px) {
+  .our_team:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .our_team:not(:last-child) {
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .our_team:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .foto {
-  width: 270px;
-  height: 260px;
   border-radius: 0px;
   margin-bottom: 30px;
+}
+@media screen and (min-width: 470px) {
+  .foto {
+    width: 450px;
+    height: 460px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .foto {
+    width: 354px;
+    height: 374px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .foto {
+    width: 270px;
+    height: 260px;
+  }
 }
 
 .team_member {
