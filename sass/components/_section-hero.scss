@@ -5,6 +5,12 @@
     background-position: center;
     background-size: cover;
     
+    @media screen and (min-width:768px){
+        background-image: url(/main-img/background.jpg);
+    }
+    @media screen and (min-width:1200px){
+        background-image: url(/main-img/background.jpg);
+    }
     /* background: url(./main-img/background.jpg) center / cover no-repeat; */
 }
 
@@ -13,7 +19,7 @@
 }
 
 .hero-head {
-    width: 696px;
+    width: 360px;
     font-family: Roboto;
     font-size: 44px;
     font-style: normal;
@@ -25,10 +31,15 @@
     margin: 0 auto;
     margin-bottom: 30px;
     color: var(--footer-text-section);
+    @media screen and (min-width:1200px){
+        width: 696px;
+    }
 }
 
 .hero-button {
     /* display: flex; */
+    width: 200px;
+    height: 50px;
     width: 216px;
     height: 50px;
     text-align: center;
@@ -36,6 +47,10 @@
     border-radius: 4px;
     background: var(--color-button-logo);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    @media screen and (min-width:1200px){
+        width: 216px;
+        height: 50px;
+    }
 
 }
 
