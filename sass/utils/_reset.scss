@@ -32,18 +32,29 @@ ol {
 //     margin: 0 auto;
 //     padding: 0 15px;
 // }
+// .container{
+//     margin: 0 auto;
+//     padding: 0 15px;
+//     @media screen and (min-width:470px){
+//         max-width: 480px;
+       
+//     }
+//     @media screen and (min-width:768px){
+//         max-width: 768px;
+//     }
+//     @media screen and (min-width:1200px){
+//        max-width: 1200px;
+//     }
+
+// }
 .container{
+    width: 480px;
     margin: 0 auto;
     padding: 0 15px;
-    @media screen and (min-width:470px){
-        max-width: 480px;
-       
-    }
     @media screen and (min-width:768px){
-        max-width: 768px;
+        width: 738px+30px;
     }
     @media screen and (min-width:1200px){
-       max-width: 1200px;
+        width: 1170px + 30px;
     }
-
 }
